@@ -6,7 +6,7 @@ cada muñeca 75 g. Escribir un programa que lea el número de payasos y muñecas
 '''
 pesoM=75
 pesoP=112
-muñeca = float(input("Ingrese el numero de muñecas: "))
-payaso = float(input("Ingrese el numero de payasos: "))
+muñeca = int(input("Ingrese el numero de muñecas: "))
+payaso = int(input("Ingrese el numero de payasos: "))
 pesoTotal = (muñeca*pesoM)+(payaso*pesoP)
 print(f"El peso total en el último pedido es {pesoTotal}")
